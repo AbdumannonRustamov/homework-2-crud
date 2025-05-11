@@ -7,6 +7,11 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
@@ -16,6 +21,7 @@ body {
     border-radius: 35px;
     margin: 0 auto;
     margin-top: 7%;
+    opacity: 0.9;
 }
 
 #formSub {
@@ -27,20 +33,20 @@ body {
 }
 
 #name {
-    border-color: #592594;
+    border:1px solid #ffffff;
     border-radius: 5px;
     width: 150px;
     height: 25px;
-    padding: 3px;
+    padding: 5px;
     background-color: #0D0714;
-}
+}   
 
 #age {
-    border-color: #621fb3;
+    border: 1px solid white;
     border-radius: 5px;
     width: 150px;
     height: 25px;
-    padding: 3px;
+    padding: 5px;
     background-color: #0D0714;
 }
 
@@ -51,6 +57,8 @@ body {
     border: none;
     background-color: #622c8f;
     transition: all ease-in;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .btn:hover {
